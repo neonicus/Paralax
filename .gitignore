@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # NOTE! Don't add files that are generated in specific
 # subdirectories here. Add them in the ".gitignore" file
@@ -91,3 +92,25 @@ extra_certificates
 signing_key.priv
 signing_key.x509
 x509.genkey
+=======
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+>>>>>>> f8d32876378de07d031608b89c0f89884cf9a825
